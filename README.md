@@ -14,9 +14,9 @@ For inference first we pass the input streaming video frames to haar cascade to 
 Face based on the emotion shown in the facial expression into one of seven categories (Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral). 
 Dataset link:
 https://www.kaggle.com/datasets/deadskull7/fer2013
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------# Results:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Results:
 The obtained validation accuracy after training on 120 epochs was 0.66 which is the quite normal for this field of study as it is still under research, and based on research papers this was highest accuracy obtained in this field of study without using transfer learning
+![Accuracy_emotion](https://user-images.githubusercontent.com/103740764/185254429-003f2284-cb58-4263-a90d-09e324106272.png)
 
-
-
-
+![Loss_emotion](https://user-images.githubusercontent.com/103740764/185254436-57aa3761-2c56-4d66-b018-41eb93d7f5f7.png)
