@@ -25,4 +25,4 @@ When you open the code folder you'll find two jupyter notebooks one for the mode
 - The model.jason file contains the model saved so you'll have to insert it's path in the second cell after downloading it on your computer
 - The second file that you need is the file containing the model weights so you'll have to load the weights also by inserting them to the second cell in the notebook
 - The third file is the one for the haar cascade and you'll hav to insert it to the third cell
-Then run the code and enjoy watching the output running on real time 
+  **Then run the code and enjoy watching the output running on real time**  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
