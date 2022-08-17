@@ -21,8 +21,8 @@ The obtained validation accuracy after training on 120 epochs was 0.66 which is 
 ![Loss_emotion](https://user-images.githubusercontent.com/103740764/185254436-57aa3761-2c56-4d66-b018-41eb93d7f5f7.png)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Output:
-To see how the output will look like :
-https://drive.google.com/drive/folders/1j6ogiXMm-ZPn3lXhCuX1GgYM9OXFr39Z?usp=sharing
+  To see how the output will look like :
+  https://drive.google.com/drive/folders/1j6ogiXMm-ZPn3lXhCuX1GgYM9OXFr39Z?usp=sharing
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # User guide:
 When you open the code folder you'll find two jupyter notebooks one for the model itself and one for testing, you don't need to use the model's notebook unless you want to change something in the model architecture, so all you need to do to get the code running is the testing notebook but you also need the three files present in the files folder
