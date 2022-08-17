@@ -27,7 +27,7 @@ When you open the code folder you'll find two jupyter notebooks one for the mode
 - The third file is the one for the haar cascade and you'll hav to insert it to the third cell
 
   **Then run the code and enjoy watching the output running on real time**
-  Incase you want to modify something in the model and train it from the begining you'll find the dataset lik in the dataset section in the readme so you'll just have to insert the path of the dataset after downloading it to the   cell in the model notebook.
+  Incase you want to modify something in the model and train it from the begining you'll find the dataset lik in the dataset section in the readme so you'll just have to insert the path of the dataset after downloading it to the third and the fourth cells (train generator and validation generator) in the model notebook.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Output:
 To see how the output will look like :
