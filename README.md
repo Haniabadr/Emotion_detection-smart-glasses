@@ -7,7 +7,7 @@ For emotion prediction VGG16 model was tried but it didn't give any promising re
 
 ![architecture](https://user-images.githubusercontent.com/103740764/185250305-a58ed432-efc6-409f-aa2c-d3f821623056.png)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-For inference first we pass the input streaming video frames to haar cascade to detect the face, crop it and send it to the model to perform the prediction and draw a bounding box on the face with the emotion written above it.
+For inference first we pass the input streaming video frames(from the webcam) to haar cascade to detect the face, crop it and send it to the model to perform the prediction and draw a bounding box on the face with the emotion written above it.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Dataset:
  I used FER-2013 dataset which consists of 48x48 pixel 35887 grayscale images of faces. The faces have been automatically registered so that the face is more or less centred and occupies about the same amount of space in each image.
@@ -21,3 +21,8 @@ The obtained validation accuracy after training on 120 epochs was 0.66 which is 
 ![Loss_emotion](https://user-images.githubusercontent.com/103740764/185254436-57aa3761-2c56-4d66-b018-41eb93d7f5f7.png)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # User guide:
+When you open the code folder you'll find two jupyter notebooks one for the model itself and one for testing, you don't need to use the model's notebook unless you want to change something in the model architecture, so all you need to do to get the code running is the testing notebook but you also need the three files present in the files folder
+- The model.jason file contains the model saved so you'll have to insert it's path in the second cell after downloading it on your computer
+- The second file that you need is the file containing the model weights so you'll have to load the weights also by inserting them to the second cell in the notebook
+- The third file is the one for the haar cascade and you'll hav to insert it to the third cell
+Then run the code and enjoy watching the output running on real time 
