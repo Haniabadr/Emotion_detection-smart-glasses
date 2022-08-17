@@ -21,7 +21,7 @@ The obtained validation accuracy after training on 120 epochs was 0.66 which is 
 ![Loss_emotion](https://user-images.githubusercontent.com/103740764/185254436-57aa3761-2c56-4d66-b018-41eb93d7f5f7.png)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Output:
-  To see how the output will look like :
+    To see how the output will look like :
   https://drive.google.com/drive/folders/1j6ogiXMm-ZPn3lXhCuX1GgYM9OXFr39Z?usp=sharing
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # User guide:
