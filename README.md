@@ -6,4 +6,4 @@ This Emotion detection project is part of a bigger project which is building an 
 For emotion prediction VGG16 model was tried but it didn't give any promising results, and i couldn't try large transfer learning networks like Resnet50 or inception due to the limited resources so i decided to build a model from scratch with the following architecture:
 
 ![architecture](https://user-images.githubusercontent.com/103740764/185250305-a58ed432-efc6-409f-aa2c-d3f821623056.png)
-.....................................................................................................................................................................
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
